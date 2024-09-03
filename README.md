@@ -8,6 +8,8 @@
 ## 周辺ツールの書籍
 
 - [独習Git](https://www.amazon.co.jp/dp/4798144614/)
+- クラウド全般
+    - [クラウド大全](https://www.amazon.co.jp/dp/4822283887)
 - AWS
     - [AWS1年生 クラウドのしくみ](https://www.amazon.co.jp/dp/4798180076)
     - [図解まるわかり AWSのしくみ](https://www.amazon.co.jp/dp/479817470X)
