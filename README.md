@@ -16,13 +16,22 @@
 - GCP
     - [Google Cloud認定資格](https://www.amazon.co.jp/dp/4295017639)
 
-## 周辺ツールの参考サイト
+## 周辺ミドルウェアの参考サイト
 
-- [VirtualBox](https://www.virtualbox.org/)
-- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/): HYPER-Vで動作する仮想OS
+- [Vagrant](https://www.vagrantup.com/): VirtualBox上で動作するフロントエンド
 - [minikube](https://kubernetes.io/docs/tasks/tools/)
-- [Ansible](https://www.ansible.com/)
-- [GitHub](https://github.com/)
-- [Gitpod](https://www.gitpod.io/)
-- [Streamlit](https://streamlit.io/)
-- [VSCode](https://code.visualstudio.com/)
+- [Ansible](https://www.ansible.com/): K8sにコンテナをデプロイするツール
+- [Apache Ignite](https://ignite.apache.org/): 分散データベースのサービス？？？
+- [Fluentd](https://www.fluentd.org/): K8sのコンテナのログを収集するツール
+- [Jenkins](https://www.jenkins.io/): ジョブワーカ用のコンテナをK8sにデプロイするツール
+- [OpenStack](https://www.openstack.org/): K8sとクラウドプロバイダを連携させるツール
+
+
+## その他の開発ツール
+
+- [GitHub](https://github.com/): Gitのリモートリポジトリを提供するサービス
+- [Gitpod](https://www.gitpod.io/): GitHubから、Web上でVSCodeで開発するサービス
+- [GitLab](https://gitlab.com/): プロジェクト管理をするサービス
+- [Streamlit](https://streamlit.io/): ローコードで情報共有するライブラリ＋クラウドサービス
+- [VSCode](https://code.visualstudio.com/): Web/ローカルと、様々な環境で動作するIDE
