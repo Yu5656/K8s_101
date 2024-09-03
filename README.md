@@ -22,9 +22,9 @@
 - [Vagrant](https://www.vagrantup.com/): VirtualBox上で動作するフロントエンド
 - [minikube](https://kubernetes.io/docs/tasks/tools/)
 - [Ansible](https://www.ansible.com/): K8sにコンテナをデプロイするツール
-- [Apache Ignite](https://ignite.apache.org/): 分散データベースのサービス？？？
-- [Fluentd](https://www.fluentd.org/): K8sのコンテナのログを収集するツール
 - [Jenkins](https://www.jenkins.io/): ジョブワーカ用のコンテナをK8sにデプロイするツール
+- [Apache Ignite](https://ignite.apache.org/): 分散データベースのサービス
+- [Fluentd](https://www.fluentd.org/): K8sのコンテナのログを収集するツール
 - [OpenStack](https://www.openstack.org/): K8sとクラウドプロバイダを連携させるツール
 
 
