@@ -26,4 +26,3 @@
 - [Gitpod](https://www.gitpod.io/)
 - [Streamlit](https://streamlit.io/)
 - [VSCode](https://code.visualstudio.com/)
-
