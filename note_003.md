@@ -4,7 +4,8 @@ K8sノード（イメージのインスタンス）は、K8s MasterとK8s Node�
 前者がK8s特有で、コンテナの起動・管理を行う。後者はDockerのコンテナと同じ。
 
 MasterはNodeを次の５つの観点から管理する。これらを**リソース**と呼ぶ。 Nodeの管理は、
-Masterに実装された**API（RESTful API）**を介して行う。curlコマンドなどで、
+Masterに実装された **API（RESTful API）** を介して行う。
+[curlコマンド](https://curl.se/)や[xhコマンド](https://github.com/ducaale/xh)で
 直接APIを叩くことも可能である。
 
 | リソース                                       | API                   |
