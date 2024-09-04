@@ -14,7 +14,9 @@ K8sの複数ポッドからなるシステム構築は、構成が複雑にな�
 brew install kind
 ```
 
-【２】パブリッククラウド上のマネジドK8sとして、[Google K8s Engine（GKE）](https://cloud.google.com/kubernetes-engine/docs)
+
+【２】パブリッククラウド上のマネジドK8sとして、
+[Google K8s Engine（GKE）](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview)
 を選択する。ツールの導入は以下のコマンドでできる。
 
 ```sh
@@ -37,6 +39,9 @@ gcloud config get-value core/account
 gcloud config get-value core/project
 gcloud container get-server-config --zone asia-northeast1-a
 ```
+
+参照: [Google Cloud認定資格](https://www.amazon.co.jp/dp/4295017639)
+
 
 【３】K8s構築ツールとして、Kubeadm/FlannelやRancherなどがある。構築ツールで、システムを構築して、好きな環境で
 走らせるためのツールになる。これが、いちばん汎用的と思うが、ローカルK8sは学習用、パブリッククラウド上は本番環境という
