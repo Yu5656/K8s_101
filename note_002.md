@@ -141,6 +141,12 @@ docker exec -it <Name/ContainerID> bash
 - [Docker Hub](https://hub.docker.com/)
 - [Quay](https://quay.io/)
 
+有料のレジストリとして以下が知られている。
+
+- [Amazon ECR](https://aws.amazon.com/jp/ecr/)
+- IBM ...
+- Google ...
+
 Dockerのコマンド群だけでは動作しない。Docker HubからDockerアプリを導入して、
 デーモンとして動作させる必要がある。
 
