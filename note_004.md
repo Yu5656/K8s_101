@@ -24,8 +24,8 @@ Masterに実装された **API（RESTful API）** を介して行う。
 
 **詳細は、本の後ほど説明される（ここに追加予定）**
 
-jsonやyamlで書かれている。後者の方がシンプル（括弧ではなく、Pythonのようにインデントで塊を
-表現する）。
+jsonやyamlで書かれている。後者の方がシンプル（括弧ではなく、
+Pythonのようにインデントで塊を表現する）。
 
 ## K8sクラスタの管理方式の設定
 
@@ -45,11 +45,12 @@ K8sクラスタのグループに名前（namespace）をつけることがで�
 クラスタへのユーザのアクセス権限を管理（Role-Based Access Control【RBAC】）したり、
 クラスタ間の通信を管理・制御（Network Policy）が可能である。
 
-Namespace/Context/{User, Cluster}という階層構造で、K8sクラスタを識別できる。K8sクラスタの
-グループの最小単位がContextであり、ContextをまとめてNamespaceを任意でつけることができる。
+**Namespace/Context/{User, Cluster}という階層構造**で、K8sクラスタを識別できる。
+K8sクラスタの集合の最小単位がContextであり、ContextをまとめてNamespaceを任意で、
+つけることができる。
 
 Contextの切り替えは`kubectx`、Namespaceは`kubens`というコマンドがある。
-いずれも`[kube-krew](https://github.com/kubernetes-sigs/krew/)`からインストール可能。
+いずれも[kube-krew](https://github.com/kubernetes-sigs/krew/)からインストール可能。
 [こちらのページ](https://github.com/ahmetb/kubectx)を参照。
 
 ```sh
@@ -66,3 +67,4 @@ kubectx -d some-context
 ## kubectl config set-context docker-desktop --namespace=default と等価
 kubens default
 ```
+
